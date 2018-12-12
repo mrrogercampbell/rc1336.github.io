@@ -4,7 +4,6 @@ body {
     background-image: url('/imgs/samuel-zeller-722382-unsplash.jpg');
     font-family: 'ZCOOL XiaoWei', serif;
     font-size: 25px;
-
 }
 
 
@@ -17,19 +16,32 @@ header {
 .workflow {
     margin: auto;
     padding: 10px;
-    border-top: solid 5px grey;
+    /* border-top: solid 5px grey; */
 }
 
 .connect {
     margin: auto;
     padding: 10px;
-    border-top: solid 5px grey;
+    /* border-top: solid 5px grey; */
+}
+
+hr {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(190, 30, 24);
+    opacity: 0.5;
 }
 
 .logoLinks {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+@media screen and (max-width: 576px) {
+    .logoLinks {
+        flex-direction: column; 
+    }
 }
 
 .logo {
@@ -52,10 +64,10 @@ ul {
     list-style-type: none;
 }
 
-
 h1, h2, p{
     text-transform: capitalize;
     text-align: center;
     color: white;
     text-decoration: none;
 }
+
